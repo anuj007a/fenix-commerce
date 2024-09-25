@@ -19,6 +19,10 @@ spring:
         apiKey: 756a476055e05f5eb0747a3ca1191816
         apiSecret: e5ef854275aa39d72c9f0bfd8f6abb5c
         storeUrl: https://e7f461-0a.myshopify.com/
+    sync:
+        mode: all
+        tenant:
+            id: tenant_1 # Used if sync.mode=tenant
 
 # Production environment specific settings
 ---
@@ -32,3 +36,7 @@ spring:
         apiKey: 756a476055e05f5eb0747a3ca1191816
         apiSecret: e5ef854275aa39d72c9f0bfd8f6abb5c
         storeUrl: https://e7f461-0a.myshopify.com/
+    sync:
+        mode: all
+        tenant:
+            id: tenant_1 # Used if sync.mode=tenant
