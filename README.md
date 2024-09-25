@@ -52,16 +52,16 @@ The project architecture consists of several key components:
 
 ### 1. Clone the repository:
 
-    ```bash
+```bash
     git clone https://github.com/anuj007a/fenix-commerce.git
     cd fenix-commerce
-    ```
+  ```
 
 ### 2. Build the project:
 
-    ```bash
+```bash
     mvn clean install
-    ```
+  ```
 
 ### 3. Run the application:
 #### Maven
