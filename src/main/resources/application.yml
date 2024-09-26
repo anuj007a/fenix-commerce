@@ -14,11 +14,11 @@ spring:
     profiles: dev
     elasticsearch:
         username: elastic
-        password: gt3y00iKDtLX1K=xvCyV
+        password: pass
     shopify:
-        apiKey: 756a476055e05f5eb0747a3ca1191816
-        apiSecret: e5ef854275aa39d72c9f0bfd8f6abb5c
-        storeUrl: https://e7f461-0a.myshopify.com/
+        apiKey: pass
+        apiSecret: pass
+        storeUrl: https://mystore.myshopify.com/
     sync:
         mode: all
         tenant:
@@ -31,11 +31,11 @@ spring:
     elasticsearch:
         uris: http://localhost:9200
         username: elastic
-        password: gt3y00iKDtLX1K=xvCyV
+        password: pass
     shopify:
-        apiKey: 756a476055e05f5eb0747a3ca1191816
-        apiSecret: e5ef854275aa39d72c9f0bfd8f6abb5c
-        storeUrl: https://e7f461-0a.myshopify.com/
+        apiKey: pass
+        apiSecret: pass
+        storeUrl: https://mystore.myshopify.com/
     sync:
         mode: all
         tenant:
